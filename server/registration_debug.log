@@ -1,0 +1,66 @@
+2025-05-17T10:42:15.262Z: Register user function entered
+2025-05-17T10:42:15.263Z: Request Body: {"name":"tw","email":"test@test.com","password":"test"}
+2025-05-17T10:42:15.271Z: User exists check result: null
+2025-05-17T10:42:15.271Z: Attempting to create new user
+2025-05-17T10:42:15.376Z: User create result: {"name":"tw","email":"test@test.com","password":"$2a$10$lI9kJb7ux3d6QlXgSzteFOAWsYbLtHN0fT3s64bLF5ecMkxFrwfrS","_id":"68286807bb590786ccaae28e","createdAt":"2025-05-17T10:42:15.279Z","updatedAt":"2025-05-17T10:42:15.279Z","__v":0}
+2025-05-17T10:42:15.376Z: User created successfully, preparing 201 response
+2025-05-17T10:43:13.189Z: Register user function entered
+2025-05-17T10:43:13.189Z: Request Body: {"name":"vinayak","email":"vinayak@vinayak.com","password":"vinayak"}
+2025-05-17T10:43:13.192Z: User exists check result: null
+2025-05-17T10:43:13.192Z: Attempting to create new user
+2025-05-17T10:43:13.269Z: User create result: {"name":"vinayak","email":"vinayak@vinayak.com","password":"$2a$10$yGefZA5YrkU6UAAe52Vxj.yz.0a31LbfTfsV8xMxeC.6dCgrwgX5G","_id":"68286841bb590786ccaae291","createdAt":"2025-05-17T10:43:13.194Z","updatedAt":"2025-05-17T10:43:13.194Z","__v":0}
+2025-05-17T10:43:13.269Z: User created successfully, preparing 201 response
+2025-05-17T10:53:38.707Z: Register user function entered
+2025-05-17T10:53:38.708Z: Request Body: {"name":"test","email":"test@test.com","password":"test"}
+2025-05-17T10:53:38.719Z: User exists check result: {"_id":"68286807bb590786ccaae28e","name":"tw","email":"test@test.com","password":"$2a$10$lI9kJb7ux3d6QlXgSzteFOAWsYbLtHN0fT3s64bLF5ecMkxFrwfrS","createdAt":"2025-05-17T10:42:15.279Z","updatedAt":"2025-05-17T10:42:15.279Z","__v":0}
+2025-05-17T10:53:38.719Z: User already exists, sending 400 response
+2025-05-17T10:54:15.670Z: Register user function entered
+2025-05-17T10:54:15.670Z: Request Body: {"name":"hello","email":"h@h.com","password":"h"}
+2025-05-17T10:54:15.673Z: User exists check result: null
+2025-05-17T10:54:15.673Z: Attempting to create new user
+2025-05-17T10:54:15.772Z: User create result: {"name":"hello","email":"h@h.com","password":"$2a$10$aKlh1WW8kJ2y6zf8TqB7RehKhSEVZzHadPwYCOHaLNa0ftuglD0hS","_id":"68286ad700125559f109db06","createdAt":"2025-05-17T10:54:15.680Z","updatedAt":"2025-05-17T10:54:15.680Z","__v":0}
+2025-05-17T10:54:15.772Z: User created successfully, preparing 201 response
+2025-05-17T12:11:20.356Z: Register user function entered
+2025-05-17T12:11:20.356Z: Request Body: {"name":"hi","email":"hi@hi.com","password":"hi"}
+2025-05-17T12:11:20.365Z: User exists check result: null
+2025-05-17T12:11:20.365Z: Attempting to create new user
+2025-05-17T12:11:20.463Z: User create result: {"name":"hi","email":"hi@hi.com","password":"$2a$10$C9E6VhCSVqObpe.xlDsZ1ekrQ3L1SWSwA2HvLdbmuYGZ.bkzNSwHa","_id":"68287ce85e58f6bd2b64e3e7","createdAt":"2025-05-17T12:11:20.372Z","updatedAt":"2025-05-17T12:11:20.372Z","__v":0}
+2025-05-17T12:11:20.463Z: User created successfully, preparing 201 response
+2025-05-17T12:57:52.833Z: Register user function entered
+2025-05-17T12:57:52.834Z: Request Body: {"name":"hello","email":"hel@he.com","password":"hi"}
+2025-05-17T12:57:52.843Z: User exists check result: null
+2025-05-17T12:57:52.843Z: Attempting to create new user
+2025-05-17T12:57:52.938Z: User create result: {"name":"hello","email":"hel@he.com","password":"$2a$10$0idXDdomyeWoPI86KcX8qepmhM7sFvnkLxfJ8qIxKZVJcyUTM67cC","_id":"682887d0a778d160efbf3bc9","createdAt":"2025-05-17T12:57:52.850Z","updatedAt":"2025-05-17T12:57:52.850Z","__v":0}
+2025-05-17T12:57:52.938Z: User created successfully, preparing 201 response
+2025-05-17T12:58:57.484Z: Register user function entered
+2025-05-17T12:58:57.484Z: Request Body: {"name":"Vks","email":"vks@vk.com","password":"vks"}
+2025-05-17T12:58:57.487Z: User exists check result: null
+2025-05-17T12:58:57.487Z: Attempting to create new user
+2025-05-17T12:58:57.561Z: User create result: {"name":"Vks","email":"vks@vk.com","password":"$2a$10$AbdFNr.qeM2OFe5dK2LxIuNGbOGboh7h9lr7vtgfEvVVie77BWRrC","_id":"68288811a778d160efbf3bcc","createdAt":"2025-05-17T12:58:57.489Z","updatedAt":"2025-05-17T12:58:57.489Z","__v":0}
+2025-05-17T12:58:57.562Z: User created successfully, preparing 201 response
+2025-05-17T13:03:09.545Z: Register user function entered
+2025-05-17T13:03:09.546Z: Request Body: {"name":"fjghfj","email":"vks@vk.com","password":"vks"}
+2025-05-17T13:03:09.549Z: User exists check result: {"_id":"68288811a778d160efbf3bcc","name":"Vks","email":"vks@vk.com","password":"$2a$10$AbdFNr.qeM2OFe5dK2LxIuNGbOGboh7h9lr7vtgfEvVVie77BWRrC","createdAt":"2025-05-17T12:58:57.489Z","updatedAt":"2025-05-17T12:58:57.489Z","__v":0}
+2025-05-17T13:03:09.550Z: User already exists, sending 400 response
+2025-05-17T13:07:56.422Z: Register user function entered
+2025-05-17T13:07:56.423Z: Request Body: {"name":"Vinayak Kumar Singh","email":"Vinayaksingh762@gmail.com","password":"vinayak"}
+2025-05-17T13:07:56.426Z: User exists check result: null
+2025-05-17T13:07:56.426Z: Attempting to create new user
+2025-05-17T13:07:56.509Z: User create result: {"name":"Vinayak Kumar Singh","email":"Vinayaksingh762@gmail.com","password":"$2a$10$lxOSj.Cy/nyaZlT2LhnFHeiQ0BQt77xBiZHG1Xje66lYcITu6BnMq","_id":"68288a2ca778d160efbf3c34","createdAt":"2025-05-17T13:07:56.427Z","updatedAt":"2025-05-17T13:07:56.427Z","__v":0}
+2025-05-17T13:07:56.509Z: User created successfully, preparing 201 response
+2025-05-17T13:53:47.291Z: Register user function entered
+2025-05-17T13:53:47.292Z: Request Body: {"name":"Vinayak Kumar Singh","email":"Vinayaksingh762@gmail.com","password":"vinayak"}
+2025-05-17T13:53:47.305Z: User exists check result: null
+2025-05-17T13:53:47.306Z: Attempting to create new user
+2025-05-17T13:53:47.418Z: User create result: {"name":"Vinayak Kumar Singh","email":"Vinayaksingh762@gmail.com","password":"$2a$10$nnUIeq/GZdHnJZ20Ly62/u7t3GJXp5VZAj/4G/T16HtuXCwZz.cLq","_id":"682894eb17980d3b2d8053d8","createdAt":"2025-05-17T13:53:47.319Z","updatedAt":"2025-05-17T13:53:47.319Z","__v":0}
+2025-05-17T13:53:47.418Z: User created successfully, preparing 201 response
+2025-05-17T14:06:10.757Z: Register user function entered
+2025-05-17T14:06:10.757Z: Request Body: {"name":"Vinayak Kumar Singh","email":"Vinayaksingh762@gmail.com","password":"vinayak"}
+2025-05-17T14:06:10.760Z: User exists check result: {"_id":"682894eb17980d3b2d8053d8","name":"Vinayak Kumar Singh","email":"Vinayaksingh762@gmail.com","password":"$2a$10$nnUIeq/GZdHnJZ20Ly62/u7t3GJXp5VZAj/4G/T16HtuXCwZz.cLq","createdAt":"2025-05-17T13:53:47.319Z","updatedAt":"2025-05-17T13:53:47.319Z","__v":0}
+2025-05-17T14:06:10.760Z: User already exists, sending 400 response
+2025-05-17T14:06:56.674Z: Register user function entered
+2025-05-17T14:06:56.675Z: Request Body: {"name":"Vinayak Kumar Singh","email":"Vinayaksingh762@gmail.com","password":"vinayak"}
+2025-05-17T14:06:56.678Z: User exists check result: null
+2025-05-17T14:06:56.678Z: Attempting to create new user
+2025-05-17T14:06:56.787Z: User create result: {"name":"Vinayak Kumar Singh","email":"Vinayaksingh762@gmail.com","password":"$2a$10$WMU.1jCPVmuHUO2TMM27pegS4Cdk0Rt6rc.8e9GMfeJngpXmXwgta","_id":"68289800d4dd98436e9a9f28","createdAt":"2025-05-17T14:06:56.679Z","updatedAt":"2025-05-17T14:06:56.679Z","__v":0}
+2025-05-17T14:06:56.787Z: User created successfully, preparing 201 response
